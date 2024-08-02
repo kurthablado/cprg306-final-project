@@ -63,7 +63,7 @@ export default function WeatherForm(userLocation) {
             {/* Display Weather Data */}
             {weather && weather.current && (
                 <div>
-                        <h2 className="text-xl font-bold">Weather in {weather.location.name}</h2>
+                    <h2 className="text-xl font-bold">Weather in {weather.location.name}</h2>
                     <p><strong>Temperature:</strong> {weather.current.temperature}°C</p>
                     <p><strong>Weather Description:</strong> {weather.current.weather_descriptions[0]}</p>
                     <p><strong>Humidity:</strong> {weather.current.humidity}%</p>
