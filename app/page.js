@@ -1,5 +1,8 @@
 "use client"
 
+// TODO:
+// Figure out why API is not working
+
 import WeatherForm from "./weather-form";
 import { useState } from "react";
 import Weather from "./weather";
@@ -29,7 +32,7 @@ export default function Home() {
         }
 
         // Clear form after submission
-        setCity("");
+        // setCity("");
     };
 
     // Fetch weather data by city
