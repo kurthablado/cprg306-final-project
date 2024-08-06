@@ -12,7 +12,7 @@ export default function Weather( {city, weatherObj}) {
     } = weatherObj || {};
 
         return(
-            <div className="block ml-7 p-4 border-2 items-center text-center">
+            <div className="block ml-7 p-4 border-2 border-yellow-700 items-center text-center">
             <h2 className="text-xl font-bold pb-4">Weather in {city}:</h2>
             <p><strong>Temperature:</strong> {temperature}</p>
             <p><strong>Wind:</strong> {wind}</p>
